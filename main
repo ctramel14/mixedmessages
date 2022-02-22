@@ -1,0 +1,7 @@
+let mixedMessage = ['Wow Coney, you really fucked up', 'Beef is my one true love', 'Bunny boy hop for Daddy', 'Watch it Motz gah dam', 'What the fuck Cafe', 'Wizzzzzzz']
+
+const randomMess = (arr) => {
+    return arr[Math.floor(Math.random() * arr.length)]
+}
+
+console.log(randomMess(mixedMessage))
